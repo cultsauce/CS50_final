@@ -1,0 +1,23 @@
+{
+
+    "manifest_version": 2,
+    "name": "Tic-Tac-Toe",
+    "version": "1.0",
+  
+    "description": "Play classic tic-tac-toe game right in your browser.",
+  
+    "icons": {
+      "48": "icons/tictactoe.png"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+  
+    "browser_action": {
+        "default_icon": "icons/tictactoe-32.png",
+        "default_title": "Tic-Tac-Toe",
+        "default_popup": "popup/tictactoe.html"
+      }
+  
+  }
